@@ -10,7 +10,6 @@
 #import "AdsMoGoNativeDelegate.h"
 #import "AdsMoGoNative.h"
 #import "AdMoGoNativeRegistry.h"
-#import <UIKit/UIKit.h>
 #define NativeTimerOut 8
 typedef enum {
     AdMoGoNativeAdNetworkTypeCustom       = 9,

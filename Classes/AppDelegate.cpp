@@ -111,7 +111,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 //        MyApp->readCSV_ChengjData(1+i);
 //    //------------
     
-
+    HLAdManagerWrapper::showBanner();
     director->runWithScene(BeginLayer::scene());
     
 //    director->runWithScene(LoadingLayer::scene([=](Ref *sender){
